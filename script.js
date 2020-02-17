@@ -57,18 +57,14 @@ function generatePassword() {
 
   // Build valid string of characters according to selected criteria
 
-  if (numbers) {
-    validString = validString + numbersString;
-  }
-  if (lowerCase) {
-    validString = validString + lowerCaseString;
-  }
-  if (upperCase) {
-    validString = validString + lowerCaseString.toUpperCase();
-  }
-  if (specialCharacters) {
-    validString = validString + specialCharactersString;
-  }
+  validString = numbers ? validString + numbersString : validString;
+  validString = lowerCase ? validString + lowerCaseString : validString;
+  validString = upperCase
+    ? validString + lowerCaseString.toUpperCase()
+    : validString;
+  validString = specialCharacters
+    ? validString + specialCharactersString
+    : validString;
 
   // Randomly select characters from valid string to generate password.
 

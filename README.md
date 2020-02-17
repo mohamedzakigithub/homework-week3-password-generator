@@ -31,7 +31,7 @@ The app asks the user to select at least one character group to include in the p
 
 ### Valid string creation
 
-The app constructs a string containing all the character groups selected by the user by concatenating the selected groups into one string.
+The app constructs a string containing all the character groups selected by the user by concatenating the selected groups into one string using ternary operation.
 
 <img src="markdown/build.jpg" alt=""/>
 
