@@ -37,7 +37,7 @@ The app constructs a string containing all the character groups selected by the 
 
 ### Password generation.
 
-In a for loop with the password length as the iteration times. The app generates a random number in the range of 0 to the length of the valid string - 1 to be used as an index to pick random characters from the valid string and concatenates it to the password string. The function finally returns the password to be displayed to the user. and the app is now ready to generate another password.
+In a for loop with the password length as the iteration times. The app generates a random number in the range of 0 to the last index of the valid string to be used as an index to pick random characters from the valid string and concatenates it to the password string. The function finally returns the password to be displayed to the user. and the app is now ready to generate another password.
 
 <img src="markdown/generate.jpg" alt=""/>
 
