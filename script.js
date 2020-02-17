@@ -15,16 +15,16 @@ generateBtn.addEventListener("click", writePassword);
 // Password generation function
 
 function generatePassword() {
-  var numbersString = "0123456789";
-  var lowerCaseString = "abcdefghijklmnopqrstuvwxyz";
-  var specialCharactersString = " !\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
-  var validString = "";
-  var password = "";
-  var passwordLength = 0;
-  var numbers = false;
-  var lowerCase = false;
-  var upperCase = false;
-  var specialCharacters = false;
+  var numbersString = "0123456789"; //string containing numbers characters
+  var lowerCaseString = "abcdefghijklmnopqrstuvwxyz"; // string containing lower case alphabet characters
+  var specialCharactersString = " !\"#$%&'()*+,-./:;<=>?@[]^_`{|}~"; // string containing special characters
+  var validString = ""; //variable to hold selected characters as per user criteria
+  var password = ""; //variable to hold generated password
+  var passwordLength = 0; // password length
+  var numbers = false; // boolean indicating the inclusion of numbers in password
+  var lowerCase = false; // boolean indicating the inclusion of lower case characters in password
+  var upperCase = false; // boolean indicating the inclusion of upper case characters in password
+  var specialCharacters = false; // // boolean indicating the special characters in password
 
   alert(
     "Please select the password generation criteria using the next prompts"
