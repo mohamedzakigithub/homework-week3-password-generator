@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an app that generates a random password according to the user criteria. The app starts by asking the user to input the required password length. The length needs to be between 8 and 128 characters. The app then asks the user to choose the character group to include in the password. The user need to select at least one character group from numbers, lower case characters, upper case characters and special characters. The program then generates the password by randomly selecting characters from the selected character groups.
+This is an app that generates a random password according to the user criteria. The app starts by asking the user to input the required password length. The length needs to be between 8 and 128. The app then asks the user to choose the character groups to include in the password. The user need to select at least one character group from numbers, lower case characters, upper case characters and special characters. The program then generates the password by randomly selecting characters from the selected character groups.
 
 [Click here to the view the deployed website on github-pages](https://mohamedzakigithub.github.io/homework-week3-password-generator/)
 
@@ -19,7 +19,7 @@ This is an app that generates a random password according to the user criteria. 
 
 ### Input password length
 
-The app displays a prompt window asking the user to input a valid number between 8 and 128. This will be the required password length and is assigned to the variable passwordLength. The while loop insures that the input value is a valid number and is in the range of 8 and 128. Otherwise the loop will keep prompting the user until input is entered.
+The app displays a prompt window asking the user to input a valid number between 8 and 128. This will be the required password length and is assigned to the variable passwordLength. The while loop insures that the input value is a valid number and is in the range of 8 and 128. Otherwise the loop will keep prompting the user until a valid input is entered.
 
 <img src="markdown/length.jpg" alt=""/>
 
@@ -37,7 +37,7 @@ The app constructs a string containing all the character groups selected by the 
 
 ### Password generation.
 
-In a for loop with the password length as the iteration times. The app generates a random number in the range of 0 to the length of the valid string - 1 to be used as an index to pick random characters from the valid string and concatenating it to the password string. The function finally returns the password to be displayed to the user. and the app is now ready to generate another password.
+In a for loop with the password length as the iteration times. The app generates a random number in the range of 0 to the length of the valid string - 1 to be used as an index to pick random characters from the valid string and concatenates it to the password string. The function finally returns the password to be displayed to the user. and the app is now ready to generate another password.
 
 <img src="markdown/generate.jpg" alt=""/>
 
