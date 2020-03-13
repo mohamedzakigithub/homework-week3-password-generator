@@ -4,7 +4,7 @@
 
 This is an app that generates a random password according to the user criteria. The app starts by asking the user to input the required password length. The length needs to be between 8 and 128. The app then asks the user to choose the character groups to include in the password. The user need to select at least one character group from numbers, lower case characters, upper case characters and special characters. The program then generates the password by randomly selecting characters from the selected character groups.
 
-[Click here to the view the deployed website on github-pages](https://mohamedzakigithub.github.io/homework-week3-password-generator/)
+[Click here to the view the deployed website on github-pages](https://mohamedzakigithub.github.io/password-generator/)
 
 ## Table of Contents
 
